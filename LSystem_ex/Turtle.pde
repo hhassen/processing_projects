@@ -19,15 +19,14 @@ class Turtle {
     for (int i = 0; i < todo.length(); i++) {
       char c = todo.charAt(i);
       if (c == 'F' || c == 'G') {
-        random_factor = 0.01*random(30,100);
-        line(0,0,len*random_factor,0);
-        translate(len*random_factor,0);
+        line(0,0,len,0);
+        translate(len,0);
       } 
       else if (c == '+') {
-        rotate(theta+random(0,PI/6));
+        rotate(theta);
       } 
       else if (c == '-') {
-        rotate(-theta+random(0,PI/6));
+        rotate(-theta);
       } 
       else if (c == '[') {
         pushMatrix();
