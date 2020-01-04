@@ -21,6 +21,18 @@ class Turtle {
       if (c == 'F' || c == 'G') {
         line(0,0,len,0);
         translate(len,0);
+      }
+     else if (c == 'X') {
+        color col = color(0, 204, 255);
+        fill(col);
+        circle(0,0,8);
+      } 
+      else if (c == 'Y') {
+        color col = color(255, 204, 0);
+        fill(col);
+        //circle(0,0,8);
+        //rect(-3,-3,6,10);
+        triangle(0,3,0,-3,25,0);
       } 
       else if (c == '+') {
         rotate(theta);

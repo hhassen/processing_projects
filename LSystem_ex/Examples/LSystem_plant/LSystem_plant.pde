@@ -21,8 +21,8 @@ void setup() {
 void draw() {
   background(255);  
   fill(0);
+  
   //text("Click mouse to generate", 10, height-10);
-
   translate(width/2, height);
   rotate(-PI/2);
   turtle.render();
