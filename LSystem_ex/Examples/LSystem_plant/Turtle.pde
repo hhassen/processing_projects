@@ -23,7 +23,7 @@ class Turtle {
         translate(len,0);
       }
      else if (c == 'X') {
-        color col = color(0, 204, 255);
+        color col = color(0, 204, 50);
         fill(col);
         circle(0,0,8);
       } 
